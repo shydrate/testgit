@@ -5,7 +5,7 @@ Welcome to Saiprasad
 ```
 node('master'){
     stages('Git pull'){
-        Git(url: "git@github.com:shydrate/testgit.git", branch: "dev")
+        git(url: "git@github.com:shydrate/testgit.git", branch: "dev")
     }
     stages('List'){
         sh 'ls -la; pwd'
