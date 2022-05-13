@@ -13,4 +13,4 @@ node('master'){
 }
 ```
 
-Trying out PR
+Trying out PR job trigger on jenkins
