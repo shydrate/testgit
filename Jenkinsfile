@@ -4,7 +4,7 @@ node('master'){
         git(
           url: "git@github.com:shydrate/testgit.git",
           //credentialsId: 'wardanceferret_github',
-          branch: "master"
+          branch: "dev"
         )
     }
     
