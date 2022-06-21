@@ -2,6 +2,7 @@ Hi,
 Welcome to Saiprasad
 
 ## Jekninsfile_demo:
+This is sample of jenkins pipeline.
 ```
 node('master'){
     stages('Git pull'){
@@ -12,3 +13,6 @@ node('master'){
     }
 }
 ```
+---
+
+Testing PR build on jenkins
