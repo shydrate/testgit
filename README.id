@@ -2,7 +2,7 @@ Hi,
 Welcome to Saiprasad
 
 ## Jekninsfile_demo:
-This is sample of jenkins pipeline which is being used in jenkinsfile
+This is sample of jenkins pipeline.
 ```
 node('master'){
     stages('Git pull'){
