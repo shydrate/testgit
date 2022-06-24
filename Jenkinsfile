@@ -8,7 +8,6 @@ node('master'){
         //clone into current directory so we can run jenkins script
         git(
           url: "git@github.com:shydrate/testgit.git",
-          //credentialsId: 'wardanceferret_github',
           branch: env.GIT_BRANCH
         )
     }
