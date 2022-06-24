@@ -1,0 +1,14 @@
+name: Simple Github workflow
+
+on:
+#   push:
+#     branches: master
+  pull_request: [ dev ]
+
+jobs:
+  build-java:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
