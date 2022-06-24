@@ -3,7 +3,7 @@ name: Simple Github workflow
 on:
 #   push:
 #     branches: master
-  pull_request: [ dev ]
+  pull_request: [ dev, qa ]
 
 jobs:
   build-java:
