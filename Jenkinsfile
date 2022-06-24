@@ -16,4 +16,12 @@ node('master'){
     stage('List'){
         sh 'ls -la; pwd'
     }
+    
+    stage('check'){
+        if (env.BRANCH_NAME == 'main') {
+            echo 'Hello from main branch'
+        } else {
+            sh "echo 'Hello from ${env.BRANCH_NAME} branch!'"
+        }
+    }
 }
