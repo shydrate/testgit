@@ -16,5 +16,3 @@ node('master'){
 ---
 
 Testing PR build on jenkins
-
-Testing git-revert on Github-UI
